@@ -6,32 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first learning Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
 <body>
-    <header>
+    <header class="sticky-top  bg-black bg-gradient">
 
-        <div class="logo">
-            <span id="profile"><img src="./media/Me.jpg" alt="it me" style="width: 42px; height: 42px;"></span>
-            <strong>Varot Vilay</strong>
-        </div>
-        <nav>
-            <a href="#about">About Me</a>
-            <a href="#skills">Skills</a>
-            <a href="#roadmap">Roadmap</a>
-            <a href="#assignment">A1 Assignment</a>
-            <a href="#footer">Contact</a>
-        </nav>
-        <div class="portfolio">
+            <div class=" container-fluid row align-items-center border border-dark rounded-pill">
+                <div class="col-12 col-md-8 logo justify-content-md-start justify-content-center d-flex align-items-center gap-3 text-white mb-4 mt-3">
+                    <span id="profile" class="border-3 border-white mt-1"><img src="./media/Me.jpg" alt="it me"
+                            style="width: 60px; height: 60px;"></span>
+                    <strong>Varot Vilay</strong>
+                </div>
+                <div class="col-12 col-md-4 justify-content-md-end">
+                    <nav class="d-flex justify-content-center  flex-wrap gap-2 gap-md-3 text-wrap">
+                        <a href="#about" class="text-white">About Me</a>
+                        <a href="#skills" class="text-white">Skills</a>
+                        <a href="#roadmap" class="text-white">Roadmap</a>
+                        <a href="#assignment" class="text-white">A1 Assignment</a>
+                        <a href="#footer" class="text-white">Contact</a>
+                    </nav>
+                </div>
+            </div>
+    </header>
+    
+    <main class="bg-black ">
+        <div class="portfolio text-center text-white ">
             <h1>Portfolio</h1>
         </div>
-
-    </header>
-    <main>
         <section id="about">
             <div id="about-image">
                 <img src="./media/mydarkside.jpg" alt="my dark side" style="width: 220px; height: 220px;">
+                </a>
             </div>
             <div>
                 <h2>About Me</h2>
@@ -134,8 +141,8 @@
             </div>
         </section>
     </main>
-    <footer id="footer">
-            <h1>Varot Vilay</h1>
+    <footer id="footer" class="bg-black bg-gradient">
+        <h1>Varot Vilay</h1>
         <div class="location">
             <h3><strong>location</strong></h3>
             <p>Pathum Thani, Thailand 12120</p>
@@ -148,7 +155,9 @@
             <p><a href="https://discord.com/users/1053470070493433857">Discord</a></p>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

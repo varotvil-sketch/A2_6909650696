@@ -100,7 +100,6 @@ nav {
 }
 
 nav a {
-  color: #000000;
   text-decoration: none;
   font-weight: 600;
   transition:
@@ -113,7 +112,7 @@ nav a:hover {
   transform: translateY(-1px);
 }
 
-header .portfolio {
+.portfolio {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -122,8 +121,7 @@ header .portfolio {
   margin-top: 4px;
 }
 
-header .portfolio h1 {
-  color: #000000;
+.portfolio h1 {
   margin: 0;
   font-size: 4rem;
 }

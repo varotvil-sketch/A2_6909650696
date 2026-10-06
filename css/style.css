@@ -241,7 +241,7 @@ nav .dropdown-menu .dropdown-item{
   box-shadow: 0 0 0 10px rgba(36, 2, 116, 0.06);
 }
 
-.assignment {
+#assignment {
   background: var(--panel-bg);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-subtle);
@@ -250,7 +250,7 @@ nav .dropdown-menu .dropdown-item{
   padding: 24px 20px 40px;
 }
 
-.assignment h3{
+#assignment h3{
   font-size: 2rem;
 }
 

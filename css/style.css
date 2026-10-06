@@ -112,6 +112,17 @@ nav a:hover {
   transform: translateY(-1px);
 }
 
+nav .dropdown-menu .dropdown-item:hover{
+  color: #000000 !important ;           
+  text-decoration:underline;
+  background-color: #ffffff ; 
+}
+
+nav .dropdown-menu .dropdown-item{
+  color: #ffffff ;
+    transition: 0.2s ease-in-out;
+}
+
 
 #menu .dropdown-menu .dropdown-item:hover{
   color: #000000 ;           
@@ -230,13 +241,17 @@ nav a:hover {
   box-shadow: 0 0 0 10px rgba(36, 2, 116, 0.06);
 }
 
-#assignment {
+.assignment {
   background: var(--panel-bg);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-subtle);
   margin: 24px auto 30px;
   border: 1px solid var(--border-color);
   padding: 24px 20px 40px;
+}
+
+.assignment h3{
+  font-size: 2rem;
 }
 
 .What-I-built,

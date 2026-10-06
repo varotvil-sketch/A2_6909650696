@@ -18,7 +18,6 @@ html {
 
 body {
   margin: 0;
-  background: linear-gradient(to bottom, #f8fafc 0%, #0555a4 100%);
   line-height: 1.7;
 }
 
@@ -150,12 +149,11 @@ nav a:hover {
 #skills {
   padding: 30px auto 40px;
   margin: 30px auto 30px;
+  border: 0px var(--border-color);
+  border-radius: var(--radius-lg);
 }
 
 .skills {
-  background: var(--panel-bg);
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-lg);
   padding: 28px 24px;
   box-shadow: var(--shadow-subtle);
 }
@@ -167,7 +165,6 @@ nav a:hover {
 .skills p {
   margin: 14px 0 10px;
   font-weight: 700;
-  color: var(--dark);
 }
 .skill-item {
   list-style: none;
@@ -191,9 +188,8 @@ nav a:hover {
 }
 
 #roadmap {
-  background: var(--panel-bg);
   border-radius: var(--radius-lg);
-  border: 1px solid #f8fafc;
+  border: 0px solid #f8fafc;
   box-shadow: var(--shadow-subtle);
   padding: 30px 20px 40px;
 }
@@ -204,12 +200,10 @@ nav a:hover {
 
 #roadmap p {
   position: relative;
-  background: var(--border-color);
-  border-left: 3px solid #111827;
+  border-left: 3px solid #007516;
   padding: 18px 16px 18px 18px;
   margin: 0 0 16px 0;
   font-size: 1.03rem;
-  color: #334155;
   border-radius: 10px;
 }
 
@@ -221,8 +215,8 @@ nav a:hover {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: var(--dark);
-  box-shadow: 0 0 0 10px rgba(15, 23, 42, 0.06);
+  background: #00a105;
+  box-shadow: 0 0 0 10px rgba(36, 2, 116, 0.06);
 }
 
 #assignment {
@@ -257,48 +251,20 @@ footer {
   background: var(--dark);
   color: #ffffff;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
-  padding: 30px 20px 40px;
-  display: grid;
-  grid-template-columns: 1fr 1.3fr 1fr;
-  gap: 20px;
-  align-items: start;
   width: 100%;
-}
-
-footer > * {
-  max-width: 260px;
-  width: 100%;
-  margin: 0 auto;
 }
 
 footer h1 {
   color: #ffffff;
   line-height: 1.4;
   word-break: break-word;
-  text-align: center;
   font-size: 3rem;
-}
-
-footer .location {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
 }
 
 footer .location p {
   margin: 0;
   color: rgba(255, 255, 255, 0.8);
   overflow-wrap: anywhere;
-}
-
-footer .contact {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  min-height: 120px;
-  text-align: right;
 }
 
 footer .contact p {

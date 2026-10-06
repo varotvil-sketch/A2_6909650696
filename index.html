@@ -64,7 +64,7 @@
             </div>
         </section>
 
-        <section id="skills">
+        <section id="skills" class="bg-dark">
             <div class="skills">
                 <h2> Categorized Skills </h2>
                 <p>Programming & Automation:</p>
@@ -96,16 +96,16 @@
         </section>
 
 
-        <section id="roadmap">
+        <section id="roadmap" class="bg-dark border border-0">
             <h2>DevOps Learning Roadmap</h2>
-            <p>Foundations : Laying the foundation for logic in C++ and Python.</p>
-            <p>Current Focus (First Year) :Studying CS Fundamentals and Web Fundamentals HTML/CSS in CS100</p>
-            <p>Next Steps - DevOps Goals : Study Docker containers, CI/CD automation, cloud systems, And practice using
+            <p class="shadow-lg">Foundations : Laying the foundation for logic in C++ and Python.</p>
+            <p class="shadow-lg">Current Focus (First Year) :Studying CS Fundamentals and Web Fundamentals HTML/CSS in CS100</p>
+            <p class="shadow-lg">Next Steps - DevOps Goals : Study Docker containers, CI/CD automation, cloud systems, And practice using
                 the command line on Linux.</p>
         </section>
 
-        <section id="assignment">
-            <div class="What-I-built">
+        <section id="assignment" class="bg-dark border border-0">
+            <div class="What-I-built bg-dark border border-0 shadow-lg">
                 <h2>What I built</h2>
                 <p>This is a simple, single-page personal learning portfolio built using only HTML and CSS for the CS100
                     course. It features sections for About Me, categorized skills, a roadmap, A1 assignment and my
@@ -117,7 +117,7 @@
                 <p>The server component is not involved, as the files are retrieved directly from the local disk rather
                     than being requested via the HTTP protocol from a web server.</p>
             </div>
-            <div class="How-I-built-it">
+            <div class="How-I-built-it bg-dark border border-0 shadow-lg">
                 <h2>How I built it</h2>
                 <p>Start by structuring the website using HTML, dividing the content into Header, Main, Sections, and
                     Footer elements.
@@ -131,7 +131,7 @@
                     resources such as W3Schools and DataCamp, and by referencing portfolio designs from v0 by Vercel.
                 </p>
             </div>
-            <div class="reflection">
+            <div class="reflection bg-dark border border-0 shadow-lg">
                 <h2>Reflection</h2>
                 <ul>
                     <li><strong>Issue/Challenge:</strong> The issue lies with CSS; the sheer number of available tools
@@ -152,17 +152,25 @@
         </section>
     </main>
     <footer id="footer" class="bg-black bg-gradient">
-        <h1>Varot Vilay</h1>
-        <div class="location">
-            <h3><strong>location</strong></h3>
-            <p>Pathum Thani, Thailand 12120</p>
-        </div>
-        <div class="contact">
-            <h3><strong>Contact</strong></h3>
-            <p><a href="https://github.com/Ballokitofer">github</a></p>
-            <p><a href="mailto:varot.vil@dome.tu.ac.th">Email</a></p>
-            <p><a href="tel:0820016304">Telephone</a></p>
-            <p><a href="https://discord.com/users/1053470070493433857">Discord</a></p>
+        <div class="container mt-5 pb-5">
+            <div class="row ">
+                <div class="col-12 col-md-4 text-center text-md-start">
+                    <h1>Varot Vilay</h1>
+                </div>
+                <div class="location col-12 col-md-4 text-center mt-5 mt-md-0">
+                    <h3><strong>location</strong></h3>
+                    <p>Pathum Thani, Thailand 12120</p>
+                </div>
+                <div class="contact col-12 col-md-4 col-md-4 text-center text-md-end mt-5 mt-md-0">
+                    <h3 class="fs-5 fs-md-4"><strong>Contact</strong></h3>
+                    <div class="fs-6 fs-md-5">
+                        <p><a href="https://github.com/Ballokitofer">github</a></p>
+                        <p><a href="mailto:varot.vil@dome.tu.ac.th">Email</a></p>
+                        <p><a href="tel:0820016304">Telephone</a></p>
+                        <p><a href="https://discord.com/users/1053470070493433857">Discord</a></p>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

@@ -7,28 +7,41 @@
     <title>My first learning Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <header class="sticky-top  bg-black bg-gradient">
 
-        <div class=" container-fluid row align-items-center border border-3 border-dark rounded-pill">
-            <div
-                class="col-12 col-md-4 logo justify-content-md-start justify-content-center d-flex align-items-center gap-3 text-white mb-2 mt-2">
-                <span id="profile" class="border-3 border-white"><img src="./media/Me.jpg" alt="it me"
-                        style="width: 45px; height: 45px;"></span>
-                <strong class="text-white">Varot Vilay</strong>
-            </div>
-            <div class="col-12 col-md-8 ">
-                <nav
-                    class="d-flex justify-content-center  justify-content-md-end flex-wrap gap-2 gap-md-3 mb-md-0 mb-3">
-                    <a href="#about">About Me</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#roadmap">Roadmap</a>
-                    <a href="#assignment">A1 Assignment</a>
-                    <a href="#footer">Contact</a>
+        <div class=" container-fluid align-items-center border border-3 border-dark rounded-pill">
+            <div class="row mt-2 mb-2">
+                <div class="col-7 col-md-4 logo d-flex align-items-center gap-3 text-white">
+                    <span id="profile" class="border-3 border-white"><img src="./media/Me.jpg" alt="it me"
+                            style="width: 45px; height: 45px;"></span>
+                    <strong class="text-white">Varot Vilay</strong>
+                </div>
+                <div class="col-5 col-md-8 d-flex justify-content-end align-items-center pe-4" id="menu">
+                    <div class="dropdown d-md-none">
+                    <button class="btn btn-dark p-2 d-flex align-items-center justify-content-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end bg-black rounded-3">
+                        <li><a href="#about" class="dropdown-item">About Me</a></li>
+                        <li><a href="#skills" class="dropdown-item">Skills</a></li>
+                        <li><a href="#roadmap" class="dropdown-item">Roadmap</a></li>
+                        <li><a href="#assignment" class="dropdown-item">A1 Assignment</a></li>
+                        <li><a href="#footer" class="dropdown-item">Contact</a></li>
+                    </ul>
+                </div>
+                <nav class="d-none d-md-flex gap-3">
+                    <a href="#about" class="text-white text-decoration-none fw-semibold">About Me</a>
+                    <a href="#skills" class="text-white text-decoration-none fw-semibold">Skills</a>
+                    <a href="#roadmap" class="text-white text-decoration-none fw-semibold">Roadmap</a>
+                    <a href="#assignment" class="text-white text-decoration-none fw-semibold">A1 Assignment</a>
+                    <a href="#footer" class="text-white text-decoration-none fw-semibold">Contact</a>
                 </nav>
+                </div>
             </div>
         </div>
     </header>
@@ -57,7 +70,7 @@
                         </p>
                     </div>
                     <div id="about-image" class="col-12 col-md-4 order-md-2 order-1 text-center text-md-end">
-                        <img src="./media/mydarkside.jpg" alt="my dark side" style="width: 330px; height: 330px;">
+                        <img src="./media/mydarkside.jpg" alt="my dark side" class="img-fluid rounded-5" style="width: 100%; max-width: 250px; aspect-ratio: 1/1; object-fit: cover;">
                         </a>
                     </div>
                 </div>
@@ -99,8 +112,10 @@
         <section id="roadmap" class="bg-dark border border-0">
             <h2>DevOps Learning Roadmap</h2>
             <p class="shadow-lg">Foundations : Laying the foundation for logic in C++ and Python.</p>
-            <p class="shadow-lg">Current Focus (First Year) :Studying CS Fundamentals and Web Fundamentals HTML/CSS in CS100</p>
-            <p class="shadow-lg">Next Steps - DevOps Goals : Study Docker containers, CI/CD automation, cloud systems, And practice using
+            <p class="shadow-lg">Current Focus (First Year) :Studying CS Fundamentals and Web Fundamentals HTML/CSS in
+                CS100</p>
+            <p class="shadow-lg">Next Steps - DevOps Goals : Study Docker containers, CI/CD automation, cloud systems,
+                And practice using
                 the command line on Linux.</p>
         </section>
 

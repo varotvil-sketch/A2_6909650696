@@ -112,6 +112,17 @@ nav a:hover {
   transform: translateY(-1px);
 }
 
+
+#menu .dropdown-menu .dropdown-item:hover{
+  color: #000000 ;           
+  text-decoration:underline;
+  background-color: #fcfdfc ; 
+}
+#menu .dropdown-menu .dropdown-item {
+    color: #ffffff ;
+    transition: 0.2s ease-in-out;
+}
+
 .portfolio {
   display: flex;
   justify-content: center;
@@ -200,7 +211,7 @@ nav a:hover {
 
 #roadmap p {
   position: relative;
-  border-left: 3px solid #007516;
+  border-left: 3px solid #a1f3b0;
   padding: 18px 16px 18px 18px;
   margin: 0 0 16px 0;
   font-size: 1.03rem;
@@ -215,7 +226,7 @@ nav a:hover {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: #00a105;
+  background: #37ad3b;
   box-shadow: 0 0 0 10px rgba(36, 2, 116, 0.06);
 }
 
@@ -276,8 +287,12 @@ footer .contact a {
   color: #dbeafe;
   text-decoration: none;
   font-weight: 600;
+  transition:color 0.2s ease,
 }
 
 footer .contact a:hover {
   color: #8ec5ff;
+  text-decoration:underline;
+  font-size: large;
+  
 }

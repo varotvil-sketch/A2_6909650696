@@ -283,6 +283,19 @@ button .fa-chevron-down {
     transition: transform 0.2s ease-in-out;
 }
 
+.custom-sticky3 {
+    top: 100px !important; 
+    z-index: 1000 !important; 
+  }
+.custom-sticky2 {
+    top: 150px !important; 
+    z-index: 1000 !important; 
+  }
+.custom-sticky1 {
+    top: 200px !important; 
+    z-index: 1000 !important; 
+  }
+
 footer {
   background: var(--dark);
   color: #ffffff;

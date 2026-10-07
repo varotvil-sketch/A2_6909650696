@@ -185,9 +185,9 @@
             <div>
                 <h2 class="text-center">Portfolio Item</h2>
                 <!-- item 2-->
-                <div class="container-fluid ">
-                    <div class="card border-0 rounded-5 mb-5 shadow-lg border bg-dark">
-                        <div class="card-body p-4">
+                <div class="container-fluid">
+                    <div class="card border-0 rounded-5 mb-5 shadow-lg border bg-dark mx-5">
+                        <div class="card-body p-5">
                             <div class="row align-items-center">
 
                                 <div class="col-12 col-md-5 mb-3">
@@ -199,16 +199,15 @@
                                     <p class="card-text">
                                         <strong>Type :</strong> Certificate , Lap <br>
                                         <strong>Data :</strong> 4 สิงหาคม 2567 <br>
-                                        <strong>Role :</strong> Workshop Participant
-                                    </p>
+                                        <strong>Role :</strong> AI Technical Workshop Participant
                                     <div class="mb-3">
                                         <h3>
                                             <span><strong class="mb-1">Skills : </strong></span>
-                                            <span class="badge bg-success">ROS</span>
-                                            <span class="badge bg-success">SLAM Algorithm</span>
-                                            <span class="badge bg-success">Autonomous Navigation</span>
+                                            <span class="badge bg-success">Local AI Modeling</span>
+                                            <span class="badge bg-success">Ollama</span>
+                                            <span class="badge bg-success">ComfyUI</span>
                                             <span class="badge bg-success">Linux CLI</span>
-                                            <span class="badge bg-success">C++</span>
+                                            <span class="badge bg-success">Prompt Engineering</span>
                                         </h3>
                                     </div>
                                 </div>
@@ -227,9 +226,10 @@
                                     <div class="col-12 col-md-6 mb-3 shadow-lg">
                                         <div class="collapse multi-collapse" id="multiCollapseExample1">
                                             <div class="card card-body p-md-5 shadow-lg bg-dark">
-                                                <strong>Discription :</strong> เป็นเวิร์กช็อปเชิงปฏิบัติการภายใต้หัวข้อ
-                                                Smart Manufacturing by Autonomous
-                                                Mobile Robot (ROS) ของภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์
+                                                <strong>Discription :</strong>
+                                                เข้าร่วมฟังการแชร์ประสบการณ์จากครีเอเตอร์สายเทค (พี่เปา iHAVECPU)
+                                                และลงมือทำ Workshop: Future Ready with AI เพื่อศึกษาการรันโมเดล AI
+                                                บนเครื่องคอมพิวเตอร์พกพาโดยตรง (Local AI Deployment)
                                             </div>
                                         </div>
                                     </div>
@@ -237,13 +237,13 @@
                                         <div class="collapse multi-collapse" id="multiCollapseExample2">
                                             <div class="card card-body shadow-lg bg-dark">
                                                 <strong>Reflection :</strong>
-                                                "การเข้าร่วมเวิร์กช็อปนี้ทำให้ผมได้ลงมือปฏิบัติจริงในการควบคุมหุ่นยนต์และใช้เซนเซอร์
-                                                LiDAR ทำแผนที่ด้วยระบบ ROS
-                                                ซึ่งช่วยให้เข้าใจสถาปัตยกรรมของระบบหุ่นยนต์อัตโนมัติได้อย่างลึกซึ้ง
-                                                แม้จะท้าทายในเรื่องการจัดการระบบและคำสั่งที่ซับซ้อน
-                                                แต่ก็ช่วยพัฒนาทักษะการแก้ปัญหาเชิงเทคนิคได้เป็นอย่างดี
-                                                โดยผมตั้งใจจะนำพื้นฐานนี้ไปต่อยอดศึกษา ROS 2 และเทคโนโลยี AI
-                                                เพื่อพัฒนาหุ่นยนต์ให้ฉลาดและมีประสิทธิภาพยิ่งขึ้นในอนาคต"
+                                                การเข้าร่วมเวิร์กช็อปนี้ทำให้ผมได้ลงมือปฏิบัติจริงในการทำ Local AI
+                                                Deployment โดยรันโมเดลผ่าน Ollama และสร้างสรรค์ผลงานด้วย ComfyUI
+                                                บนเครื่องของตัวเอง ทำให้เข้าใจการเชื่อมโยงระหว่างโมเดล AI
+                                                กับฮาร์ดแวร์และการจัดการ VRAM ที่มีจำกัด
+                                                แม้จะท้าทายในส่วนการตั้งค่าคำสั่งแบบ Local แต่ก็ช่วยเพิ่มทักษะ Prompt
+                                                Engineering และทักษะเชิงเทคนิคได้อย่างดี
+                                                โดยผมตั้งใจจะนำพื้นฐานนี้ไปต่อยอดพัฒนาและประยุกต์ใช้โมเดล AI ในอนาคต
                                             </div>
                                         </div>
                                     </div>
@@ -253,78 +253,126 @@
                     </div>
                 </div>
                 <!-- item 1-->
-                <div class="container-fluid ">
-                    <div class="card border-0 rounded-5 mb-5 shadow-lg border bg-dark">
+                <div class="container-fluid px-2 px-md-5">
+
+                    <div class="card border-0 rounded-5 mb-5 shadow-lg bg-dark text-white">
                         <div class="card-body p-4">
+
+
                             <div class="row align-items-center">
 
-                                <div class="col-12 col-md-5 mb-3">
-                                    <img src="./media/cer_ros.jpg" alt=""
-                                        class="img-fluid rounded shadow-sm custom-cert-img">
-                                </div>
-                                <div class="col-12 col-md-7">
-                                    <h4 class="card-title fw-bold">Title : K-Engineering world Tour and Worhshop 2024</h4>
-                                    <p class="card-text">
-                                        <strong>Type :</strong> Certificate , Lap <br>
-                                        <strong>Data :</strong> 4 สิงหาคม 2567 <br>
-                                        <strong>Role :</strong> Workshop Participant
-                                    </p>
-                                    <div class="mb-3">
-                                        <h3>
-                                            <span><strong class="mb-1">Skills : </strong></span>
-                                            <span class="badge bg-success">ROS</span>
-                                            <span class="badge bg-success">SLAM Algorithm</span>
-                                            <span class="badge bg-success">Autonomous Navigation</span>
-                                            <span class="badge bg-success">Linux CLI</span>
-                                            <span class="badge bg-success">C++</span>
-                                        </h3>
+
+                                <div class="col-12 col-md-5 mb-3 mb-md-0">
+                                    <div id="certCarousel" class="carousel slide" data-bs-ride="carousel">
+
+
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#certCarousel" data-bs-slide-to="0"
+                                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#certCarousel" data-bs-slide-to="1"
+                                                aria-label="Slide 2"></button>
+                                        </div>
+
+
+                                        <div class="carousel-inner rounded shadow-sm">
+                                            <div class="carousel-item active">
+                                                <img src="./media/cer_ros.jpg" class="d-block w-100 custom-cert-img"
+                                                    alt="cer_ros">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="./media/ros.jpg" class="d-block w-100 custom-cert-img"
+                                                    alt="ros">
+                                            </div>
+                                        </div>
+
+
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#certCarousel" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#certCarousel" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
                                     </div>
                                 </div>
+
+                                <div class="col-12 col-md-7">
+                                    <h4 class="card-title fw-bold text-success mb-3">
+                                        Title : K-Engineering World Tour and Workshop 2024
+                                    </h4>
+                                    <p class="card-text mb-3">
+                                        <strong>Type :</strong> Workshop, Activity <br>
+                                        <strong>Date :</strong> 4 กันยายน 2569 <br>
+                                        <strong>Role :</strong> Workshop Participant
+                                    </p>
+                                    <div>
+                                        <strong class="d-block mb-2">Skills :</strong>
+                                        <span class="badge bg-success fs-6 fw-normal mb-1">ROS</span>
+                                        <span class="badge bg-success fs-6 fw-normal mb-1">SLAM Algorithm</span>
+                                        <span class="badge bg-success fs-6 fw-normal mb-1">Autonomous Navigation</span>
+                                        <span class="badge bg-success fs-6 fw-normal mb-1">Linux CLI</span>
+                                        <span class="badge bg-success fs-6 fw-normal mb-1">C++</span>
+                                    </div>
+                                </div>
+
                             </div>
-                            <div class="col-12 border-top border-dark-subtle border-3 rounded-5  mt-3 pt-3 text-center">
-                                <p class="d-inline-flex gap-1">
-                                    <button
-                                        class="btn border-0 d-flex justify-content-between align-items-center p-2 shadow-lg gap-2 text-white"
-                                        type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
-                                        aria-expanded="false"
-                                        aria-controls="multiCollapseExample1 multiCollapseExample2">
-                                        View Description & Reflection <br>
-                                        <i class="fa-solid fa-chevron-down"></i></button>
-                                </p>
-                                <div class="row">
-                                    <div class="col-12 col-md-6 mb-3 shadow-lg">
+
+
+                            <div class="border-top border-secondary mt-4 pt-3 text-center">
+
+                                <!-- แถบปุ่มกดแบบเต็มความกว้าง (Full Width) -->
+                                <button
+                                    class="btn bg-transparent border-0 text-white w-100 d-flex justify-content-between align-items-center py-2 px-0 shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
+                                    aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">
+                                    <span class="fw-semibold fs-5">View Description & Reflection</span>
+                                    <i class="fa-solid fa-chevron-down fs-5"></i>
+                                </button>
+
+                                <!-- กล่องแสดงเนื้อหาเมื่อคลิก -->
+                                <div class="row text-start mt-3">
+                                    <div class="col-12 col-md-6 mb-3 mb-md-0">
                                         <div class="collapse multi-collapse" id="multiCollapseExample1">
-                                            <div class="card card-body p-md-5 shadow-lg bg-dark">
-                                                <strong>Discription :</strong> เป็นเวิร์กช็อปเชิงปฏิบัติการภายใต้หัวข้อ
-                                                Smart Manufacturing by Autonomous
-                                                Mobile Robot (ROS) ของภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์
+                                            <div
+                                                class="card card-body p-4 bg-black bg-opacity-50 text-white border border-secondary rounded-3 h-100">
+                                                <strong class="text-info mb-2 fs-5">Description :</strong>
+                                                <p class="mb-0">
+                                                    เป็นเวิร์กช็อปเชิงปฏิบัติการภายใต้หัวข้อ Smart Manufacturing by
+                                                    Autonomous Mobile Robot (ROS)
+                                                    ของภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-6">
                                         <div class="collapse multi-collapse" id="multiCollapseExample2">
-                                            <div class="card card-body shadow-lg bg-dark">
-                                                <strong>Reflection :</strong>
-                                                "การเข้าร่วมเวิร์กช็อปนี้ทำให้ผมได้ลงมือปฏิบัติจริงในการควบคุมหุ่นยนต์และใช้เซนเซอร์
-                                                LiDAR ทำแผนที่ด้วยระบบ ROS
-                                                ซึ่งช่วยให้เข้าใจสถาปัตยกรรมของระบบหุ่นยนต์อัตโนมัติได้อย่างลึกซึ้ง
-                                                แม้จะท้าทายในเรื่องการจัดการระบบและคำสั่งที่ซับซ้อน
-                                                แต่ก็ช่วยพัฒนาทักษะการแก้ปัญหาเชิงเทคนิคได้เป็นอย่างดี
-                                                โดยผมตั้งใจจะนำพื้นฐานนี้ไปต่อยอดศึกษา ROS 2 และเทคโนโลยี AI
-                                                เพื่อพัฒนาหุ่นยนต์ให้ฉลาดและมีประสิทธิภาพยิ่งขึ้นในอนาคต"
+                                            <div
+                                                class="card card-body p-4 bg-black bg-opacity-50 text-white border border-secondary rounded-3 h-100">
+                                                <strong class="text-info mb-2 fs-5">Reflection :</strong>
+                                                <p class="mb-0">
+                                                    "การเข้าร่วมเวิร์กช็อปนี้ทำให้ผมได้ลงมือปฏิบัติจริงในการควบคุมหุ่นยนต์และใช้เซนเซอร์
+                                                    LiDAR ทำแผนที่ด้วยระบบ ROS
+                                                    ซึ่งช่วยให้เข้าใจสถาปัตยกรรมของระบบหุ่นยนต์อัตโนมัติได้อย่างลึกซึ้ง
+                                                    แม้จะท้าทายในเรื่องการจัดการระบบและคำสั่งที่ซับซ้อน
+                                                    แต่ก็ช่วยพัฒนาทักษะการแก้ปัญหาเชิงเทคนิคได้เป็นอย่างดี
+                                                    โดยผมตั้งใจจะนำพื้นฐานนี้ไปต่อยอดศึกษา ROS 2 และเทคโนโลยี AI
+                                                    เพื่อพัฒนาหุ่นยนต์ให้ฉลาดและมีประสิทธิภาพยิ่งขึ้นในอนาคต"
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
+
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
-            </div>
 
-            </div>
         </section>
 
     </main>

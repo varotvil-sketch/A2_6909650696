@@ -273,6 +273,15 @@ nav .dropdown-menu .dropdown-item{
   margin-bottom: 10px;
 }
 
+button[aria-expanded="true"] .fa-chevron-down {
+    transform: rotate(180deg);
+    transition: transform 0.2s ease-in-out;
+}
+
+button .fa-chevron-down {
+    transition: transform 0.2s ease-in-out;
+}
+
 footer {
   background: var(--dark);
   color: #ffffff;

@@ -199,14 +199,15 @@ nav .dropdown-menu .dropdown-item{
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: #f8fafc;
+  background: #313944;
   color: #046bfb;
-  border: 1px solid #e2e8f0;
+  border: 0px solid;
   padding: 8px 14px;
   border-radius: 99px;
   margin: 0 14px 10px 0;
   font-size: 0.85rem;
   font-weight: 600;
+  box-shadow:  0 10px 24px #1a2021;
 }
 
 #roadmap {

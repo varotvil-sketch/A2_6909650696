@@ -9,7 +9,9 @@
 * {
   color: rgb(149, 162, 181);
   box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Mitr", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 html {

@@ -283,6 +283,8 @@ button .fa-chevron-down {
     transition: transform 0.2s ease-in-out;
 }
 
+
+/* sticky later if i want
 .custom-sticky3 {
     top: 100px !important; 
     z-index: 1000 !important; 
@@ -295,6 +297,7 @@ button .fa-chevron-down {
     top: 200px !important; 
     z-index: 1000 !important; 
   }
+*/
 
 footer {
   background: var(--dark);
